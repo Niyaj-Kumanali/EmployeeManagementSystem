@@ -1,0 +1,18 @@
+1. Create a project by name Employee Management System(Employee Management System)
+2. Create a package by name admin
+3. Create a class name by name Employee, use java bean class structure
+	consider id as private and final
+	initialize through parameterized constructor
+4. Create a package by name repository
+5. Create a class by name EmployeeCreation in admin package
+	This class should have static method by name create
+		1. parameters name, salary, and exp
+		2. return type must be Employee class type
+		
+		this method should create Employee object and return it
+6. Create a class by name EmployeeDB in repository package
+	It should initialize by size of the array
+	It should contain method by name addEmployee
+		parameters Employee type
+		add those in empdb array
+	It should contain method by name viewEmployeeRecords
